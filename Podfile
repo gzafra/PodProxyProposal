@@ -6,5 +6,8 @@ target 'PodProxyProposal' do
   use_frameworks!
 
   # Pods for PodProxyProposal
+  pod 'ReachabilitySwift'
+  pod 'FXReachability'
+  pod 'Firebase'
 
 end

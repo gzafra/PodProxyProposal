@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		874A6329240E57270F94E287 /* Pods_PodProxyProposal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7EBB50EE3926221611D5BF /* Pods_PodProxyProposal.framework */; };
 		B6D7A2D521BA80CE0063D286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D7A2D421BA80CE0063D286 /* AppDelegate.swift */; };
 		B6D7A2D721BA80CE0063D286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D7A2D621BA80CE0063D286 /* ViewController.swift */; };
 		B6D7A2DA21BA80CE0063D286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D7A2D821BA80CE0063D286 /* Main.storyboard */; };
 		B6D7A2DC21BA80D00063D286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D7A2DB21BA80D00063D286 /* Assets.xcassets */; };
 		B6D7A2DF21BA80D00063D286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D7A2DD21BA80D00063D286 /* LaunchScreen.storyboard */; };
+		B6D7A2E921BA84470063D286 /* ReachabilityProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D7A2E821BA84470063D286 /* ReachabilityProxy.swift */; };
+		B6D7A2EB21BA8DEC0063D286 /* ReachabilityAdoption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D7A2EA21BA8DEC0063D286 /* ReachabilityAdoption.swift */; };
+		B6D7A2EF21BA939D0063D286 /* OnlineServiceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D7A2EE21BA939D0063D286 /* OnlineServiceProxy.swift */; };
+		B6D7A2F121BA94830063D286 /* OnlineServiceAdoption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D7A2F021BA94830063D286 /* OnlineServiceAdoption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A7EBB50EE3926221611D5BF /* Pods_PodProxyProposal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodProxyProposal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEDCD29DD6966C4CF4A165A /* Pods-PodProxyProposal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodProxyProposal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodProxyProposal/Pods-PodProxyProposal.debug.xcconfig"; sourceTree = "<group>"; };
+		883F2C85B70457D9FAC0ECEF /* Pods-PodProxyProposal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodProxyProposal.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodProxyProposal/Pods-PodProxyProposal.release.xcconfig"; sourceTree = "<group>"; };
 		B6D7A2D121BA80CE0063D286 /* PodProxyProposal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodProxyProposal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D7A2D421BA80CE0063D286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D7A2D621BA80CE0063D286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		B6D7A2DB21BA80D00063D286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D7A2DE21BA80D00063D286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6D7A2E021BA80D00063D286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D7A2E821BA84470063D286 /* ReachabilityProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityProxy.swift; sourceTree = "<group>"; };
+		B6D7A2EA21BA8DEC0063D286 /* ReachabilityAdoption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityAdoption.swift; sourceTree = "<group>"; };
+		B6D7A2EE21BA939D0063D286 /* OnlineServiceProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineServiceProxy.swift; sourceTree = "<group>"; };
+		B6D7A2F021BA94830063D286 /* OnlineServiceAdoption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineServiceAdoption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874A6329240E57270F94E287 /* Pods_PodProxyProposal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		941355C0E23961DCF7E489A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A7EBB50EE3926221611D5BF /* Pods_PodProxyProposal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6D7A2C821BA80CE0063D286 = {
 			isa = PBXGroup;
 			children = (
 				B6D7A2D321BA80CE0063D286 /* PodProxyProposal */,
 				B6D7A2D221BA80CE0063D286 /* Products */,
+				D4A6CD9094DF088167618ED4 /* Pods */,
+				941355C0E23961DCF7E489A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +77,24 @@
 		B6D7A2D321BA80CE0063D286 /* PodProxyProposal */ = {
 			isa = PBXGroup;
 			children = (
+				B6D7A2E721BA84310063D286 /* Demo */,
+				B6D7A2E621BA84150063D286 /* Proxies */,
+			);
+			path = PodProxyProposal;
+			sourceTree = "<group>";
+		};
+		B6D7A2E621BA84150063D286 /* Proxies */ = {
+			isa = PBXGroup;
+			children = (
+				B6D7A2ED21BA93690063D286 /* OnlineService */,
+				B6D7A2EC21BA92F10063D286 /* Reachability */,
+			);
+			path = Proxies;
+			sourceTree = "<group>";
+		};
+		B6D7A2E721BA84310063D286 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
 				B6D7A2D421BA80CE0063D286 /* AppDelegate.swift */,
 				B6D7A2D621BA80CE0063D286 /* ViewController.swift */,
 				B6D7A2D821BA80CE0063D286 /* Main.storyboard */,
@@ -61,7 +102,34 @@
 				B6D7A2DD21BA80D00063D286 /* LaunchScreen.storyboard */,
 				B6D7A2E021BA80D00063D286 /* Info.plist */,
 			);
-			path = PodProxyProposal;
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		B6D7A2EC21BA92F10063D286 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B6D7A2E821BA84470063D286 /* ReachabilityProxy.swift */,
+				B6D7A2EA21BA8DEC0063D286 /* ReachabilityAdoption.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		B6D7A2ED21BA93690063D286 /* OnlineService */ = {
+			isa = PBXGroup;
+			children = (
+				B6D7A2EE21BA939D0063D286 /* OnlineServiceProxy.swift */,
+				B6D7A2F021BA94830063D286 /* OnlineServiceAdoption.swift */,
+			);
+			path = OnlineService;
+			sourceTree = "<group>";
+		};
+		D4A6CD9094DF088167618ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDCD29DD6966C4CF4A165A /* Pods-PodProxyProposal.debug.xcconfig */,
+				883F2C85B70457D9FAC0ECEF /* Pods-PodProxyProposal.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6D7A2E321BA80D00063D286 /* Build configuration list for PBXNativeTarget "PodProxyProposal" */;
 			buildPhases = (
+				900724954014F7361A888B18 /* [CP] Check Pods Manifest.lock */,
 				B6D7A2CD21BA80CE0063D286 /* Sources */,
 				B6D7A2CE21BA80CE0063D286 /* Frameworks */,
 				B6D7A2CF21BA80CE0063D286 /* Resources */,
+				2721BE3093B07863F5D64404 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +200,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2721BE3093B07863F5D64404 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PodProxyProposal/Pods-PodProxyProposal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FXReachability/FXReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FXReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PodProxyProposal/Pods-PodProxyProposal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		900724954014F7361A888B18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodProxyProposal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6D7A2CD21BA80CE0063D286 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D7A2EB21BA8DEC0063D286 /* ReachabilityAdoption.swift in Sources */,
+				B6D7A2EF21BA939D0063D286 /* OnlineServiceProxy.swift in Sources */,
 				B6D7A2D721BA80CE0063D286 /* ViewController.swift in Sources */,
+				B6D7A2E921BA84470063D286 /* ReachabilityProxy.swift in Sources */,
+				B6D7A2F121BA94830063D286 /* OnlineServiceAdoption.swift in Sources */,
 				B6D7A2D521BA80CE0063D286 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,10 +407,11 @@
 		};
 		B6D7A2E421BA80D00063D286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AEDCD29DD6966C4CF4A165A /* Pods-PodProxyProposal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PodProxyProposal/Info.plist;
+				INFOPLIST_FILE = PodProxyProposal/Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +425,11 @@
 		};
 		B6D7A2E521BA80D00063D286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883F2C85B70457D9FAC0ECEF /* Pods-PodProxyProposal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PodProxyProposal/Info.plist;
+				INFOPLIST_FILE = PodProxyProposal/Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
